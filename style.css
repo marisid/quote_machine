@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Lemonada");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie|Waiting+for+the+Sunrise');
+
+body {
+  font-family: 'Reenie Beanie', cursive;
+  margin: 0px;
+  background-color: white;
+}
+.quote-box {
+  position: relative;
+  padding-top: 1%;
+  width: 600px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  background: url(https://static.pexels.com/photos/64775/pexels-photo-64775-large.jpeg);
+  background-size: cover;
+  opacity: 1.0;
+  border: gray solid 0.5px;
+  border-radius: 5px;
+    }
+.box-heading h1 {
+  margin: 0px;
+  padding-left: 10px;
+}
+.box-content {
+  position:relative;
+  width: 550px;
+  height: 180px;
+  font-size: 1.2em;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+.quote-text, .origin {
+  font-size: 1.4em;
+  margin: 0px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.fa-quote-right {
+  position: absolute;
+  right: 0px;
+}
+
+i {
+  font-size: 0.8em;
+}
+
+.quote-container {
+  background:rgba(255,255,255, 0.2);
+  border-radius: 5px;
+}
+
+button {
+  padding: 4px;
+  width: 220px;
+  font-family: 'Montserrat';
+  color: black;
+  background-color: #9CD044;
+  opacity: 0.8;
+  border: none;
+  border-radius: 2px;
+}
+
+button:hover, a:hover {
+  font-weight: bolder;
+  opacity: 1.0;
+}
+
+#created-by {
+  font-family: 'Waiting for the Sunrise', cursive;
+  color: white;
+  position: absolute;
+  font-size: 1.2em;
+  bottom: 5px;
+  right: 5px;
+}
+
+.click-to-tweet, button, .button-container p {
+  display: inline-block;
+}
+
+.origin-text {
+  margin-bottom: 7px;
+}
+
+a {
+  padding: 4px;
+  font-family: 'Montserrat';
+  text-decoration: none;
+  color: #9CD044;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button-container p {
+  font-family: 'Montserrat';
+}
+
+.click-to-tweet {
+  width: 150px;
+}
+
